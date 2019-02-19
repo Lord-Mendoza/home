@@ -1,0 +1,227 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+
+    <link rel="stylesheet" type= "text/css" href = "./styling.css">
+
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+
+    <title>Lord Mendoza | Website </title>
+  </head>
+
+ 
+ 	<!--==========================================================================================
+  		=================================Start of Body============================================-->
+	<body style = "display: inline-block;">
+
+
+  	<!--=====================================================================================
+  										Header + Menu Section 
+		=====================================================================================-->
+  	<section data-aos="zoom-in">
+
+  		<!--=== Header ===-->
+	    <h1 class = "jumbotron" style = "background-color: black; text-align: center; border-radius: 0%; padding-bottom: 30px; padding-top: 20px; margin-bottom: 0px;">
+	    	<div style = "color: white;">
+		    	<img src = '../res/profPic.jpg' 
+					alt = "my profile pic" 
+					id = "profPic"
+					style = "padding-bottom: 10px;"/> 
+
+				<div class='media-heading'> Lord Mendoza </div>
+				<div style = "font-size: 30px;"> <small> Software Developer </small> </div>	
+
+			</div>	
+	    </h1>
+   
+   		<!--=== Navigation ===-->
+		<nav class="navbar navbar-expand-lg navbar-dark bg-dark" style = "border-top: 0px;">
+
+		  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+		    <span class="navbar-toggler-icon"></span>
+		  </button>
+
+		  <div class="collapse navbar-collapse" id="navbarNav">
+		    <ul class="navbar-nav">
+		      
+		      <li class="nav-item active">
+		        <a class="nav-link" href = #"> Home <span class="sr-only">(current)</span></a>
+		      </li>
+		      
+		      <li class="nav-item">
+		        <a class="nav-link" href="#Proficiencies"> About </a>
+		      </li>
+		      
+		      <li class="nav-item">
+		        <a class="nav-link" href="#Portfolio">Portfolio</a>
+		      </li>
+
+		      <li class="nav-item">
+		        <a class = "nav-link" href="../store/Resume.pdf"> Resume </a>
+		      </li>
+		     
+		      <li class="nav-item">
+		        <a class="nav-link" href="#Social">Contact</a>
+		      </li>
+
+		    </ul>
+		  </div>
+
+		</nav>
+	</section>		
+
+
+	<!--=====================================================================================
+									Proficiencies Section 
+		=====================================================================================-->
+
+	<section id = 'Proficiencies' data-aos="fade-right" data-aos-delay="1000">
+			<h1 class = "display-4">  </h1>	
+
+
+			<p h1 class = "display-5"> Here's what I know: </p>
+			<div style = "text-align: center; padding-left: 10px; padding-right: 10px;"> 
+
+				<!--=== Java ===-->
+				<img src = "../res/java.png" />
+
+				<!--=== JavaScript ===-->
+				<img src = "../res/javascript.png" />
+
+				<!--=== Android Studio ===-->
+				<img src = "../res/androidstudio.png"/>
+
+				<!--=== Python ===-->
+				<img src = "../res/Python.svg.png"/>
+
+				<!--=== Firebase ===-->
+				<img src = "../res/Firebase.png" />
+
+				<!--=== Navigation ===-->
+				<img src = "../res/sqlite.png" />
+
+				<!-- <img src =  />
+				<img src =  /> -->
+				
+			</div>
+	</section>	
+
+
+	<!--=====================================================================================
+										Portfolio Section 
+		=====================================================================================-->
+	<section id = 'Portfolio'>
+		<div data-aos="fade-right" data-aos-delay="2000"> 
+			<h1 class = "display-4"> Portfolio </h1>
+			
+			<div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel" style = "text-align: center;">
+				  <div class="carousel-inner">
+				  		<ol class="carousel-indicators" style = "background-color: black;">
+						    <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+						    <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+						    <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+					  	</ol>
+
+					    <div class="carousel-item active">
+					      	<div class="jumbotron d-block w-100">
+
+					      		<img src = "https://github.com/Lord-Mendoza/TravelSmart/blob/master/app/src/main/res/drawable/icon.png?raw=true" />
+
+							  	<p class="h3">TravelSmart</p>
+								  
+							  	<p class="lead">A mobile application that utilizes Google Maps APIs to determine the best time for you to leave to get you where you need to be on time, regardless of traffic. </p>
+								  
+							  	<a class="btn btn-primary btn-lg" href="https://github.com/Lord-Mendoza/TravelSmart" role="button" target = "_blank">Learn More</a>
+							</div>
+					    </div>
+
+					    <div class="carousel-item">
+					      	<div class="jumbotron d-block w-100">
+					      	
+			      			  <img src = "https://github.com/Lord-Mendoza/Samsung-Workshop-Check-In/blob/master/app/src/main/res/mipmap-xxxhdpi/ic_launcher_round.png?raw=true" />
+
+							  <p class="h3">Workshop Check-In</p>
+							  
+							  <p class="lead"> A tool developed for Samsung Experience consultants that helps facilitate client interactions, as well as maintaining workshop numbers for the store. </p>
+							  
+							  <a class="btn btn-primary btn-lg" href="https://github.com/Lord-Mendoza/Samsung-Workshop-Check-In" role="button" target = "_blank"> Learn More </a>
+							</div>
+					    </div>
+
+					    <div class="carousel-item">
+					      	<div class="jumbotron d-block w-100">
+					      	
+			      			  <img src = "https://github.com/Lord-Mendoza/WorkSmart/blob/master/Project/app/src/main/res/mipmap-xxxhdpi/ic_launcher.png?raw=true" />
+
+							  <p class="h3">WorkSmart</p>
+							  
+							  <p class="lead"> A digital student agenda that helps student keep track of all aspects of their classes including grades, tasks, faculty information, and much more. A program developed by students, for students. </p>
+							  
+							  <a class="btn btn-primary btn-lg" href="https://github.com/Lord-Mendoza/WorkSmart" role="button" target = "_blank"> Learn More </a>
+							</div>
+					    </div>
+
+				  </div>
+			</div>
+		</div>
+	</section>	
+
+	<!--=====================================================================================
+										Social Section 
+		=====================================================================================-->
+	<section id = 'Social' style = "padding-bottom: 20px; background-color: black; padding-top: 10px;">
+			<div data-aos="flip-down" data-aos-delay="3000"> 
+				<h4 class = "display-6" style = "color: white; text-align: center; padding-bottom: 5px;"> ━━━ Get In Touch ━━━ </h1>
+				
+					<div style = "text-align: center;"> 
+						<a href = "https://www.bit.ly/playstore-lord-mendoza" target = "_blank">
+							<img class = "logo" src = 'https://upload.wikimedia.org/wikipedia/commons/thumb/d/d7/Android_robot.svg/511px-Android_robot.svg.png' alt = "android logo"/>
+						</a>
+
+						<a href = "https://www.github.com/lord-mendoza/" target = "_blank">
+							<img src = 'https://cdn2.iconfinder.com/data/icons/social-icons-33/128/Github-512.png' class = "logo" alt = "github logo"/>
+						</a>
+
+						<a href = "https://www.linkedin.com/in/lord-mendoza/" target = "_blank">
+							<img class = "logo" src = 'https://upload.wikimedia.org/wikipedia/commons/thumb/c/ca/LinkedIn_logo_initials.png/600px-LinkedIn_logo_initials.png' alt = "linkedin logo"/>
+						</a>
+
+						<a href="mailto:lord.d.mendoza@gmail.com" target="_top">
+							<img class = "logo" src = 'https://upload.wikimedia.org/wikipedia/commons/thumb/4/45/New_Logo_Gmail.svg/2000px-New_Logo_Gmail.svg.png' alt = "gmail logo"/>
+						</a>
+						
+					</div>
+			</div>
+	</section>
+
+
+	<!--=====================================================================================
+										Social Section 
+		=====================================================================================-->
+
+	<!--jquery-->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+
+    <!--popper-->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+
+    <!--bootstrap-->
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>	
+
+    <!--AOS-->
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+  	<script>
+    	AOS.init();
+  	</script>
+
+
+  	<!--=================================End of Body==============================================
+  		==========================================================================================-->
+	</body>
+</html>
