@@ -32,3 +32,12 @@ img {
 .display-4 {
 	font-size: 45px;
 }
+
+.figure {
+	padding-left: 10px;
+	padding-right: 10px;
+}
+
+.jumbotron {
+	width: 100vw;
+}
