@@ -1,4 +1,4 @@
-h1 {
+h1, small, p.lead{
 	padding-left: 25px;
 }
 
@@ -40,4 +40,13 @@ img {
 
 .jumbotron {
 	width: 100vw;
+}
+
+.title {
+	padding-bottom: 10px;
+}
+
+#javascript {
+	padding-left: 18px;
+	padding-right: 10px;
 }

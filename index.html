@@ -18,18 +18,17 @@
  
  	<!--==========================================================================================
   		=================================Start of Body============================================-->
-	<body style = "display: inline-block;">
-
+	<body style = "display: inline-block; ">
 
   	<!--=====================================================================================
   										Header + Menu Section 
 		=====================================================================================-->
-  	<section data-aos="zoom-in">
+  	<section id = 'Home' data-aos="zoom-in">
 
   		<!--=== Header ===-->
 	    <h1 class = "jumbotron" style = "background-color: black; text-align: center; border-radius: 0%; padding-bottom: 30px; padding-top: 20px; margin-bottom: 0px;">
 	    	<div style = "color: white;">
-		    	<img src = '../res/profPic.jpg' 
+		    	<img src = './res/profPic.jpg' 
 					alt = "my profile pic" 
 					id = "profPic"
 					style = "padding-bottom: 10px;"/> 
@@ -39,42 +38,42 @@
 
 			</div>	
 	    </h1>
-   
-   		<!--=== Navigation ===-->
-		<nav class="navbar navbar-expand-lg navbar-dark bg-dark" style = "border-top: 0px;">
 
-		  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-		    <span class="navbar-toggler-icon"></span>
-		  </button>
+	    <!--=== Navigation ===-->
+			<nav class="navbar navbar-expand-lg navbar-dark bg-dark">
 
-		  <div class="collapse navbar-collapse" id="navbarNav">
-		    <ul class="navbar-nav">
-		      
-		      <li class="nav-item active">
-		        <a class="nav-link" href = #"> Home <span class="sr-only">(current)</span></a>
-		      </li>
-		      
-		      <li class="nav-item">
-		        <a class="nav-link" href="#Proficiencies"> About </a>
-		      </li>
-		      
-		      <li class="nav-item">
-		        <a class="nav-link" href="#Portfolio">Portfolio</a>
-		      </li>
+			  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+			    <span class="navbar-toggler-icon"></span>
+			  </button>
 
-		      <li class="nav-item">
-		        <a class = "nav-link" href="../store/Resume.pdf"> Resume </a>
-		      </li>
-		     
-		      <li class="nav-item">
-		        <a class="nav-link" href="#Social">Contact</a>
-		      </li>
+			  <div class="collapse navbar-collapse" id="navbarNav">
+			    <ul class="navbar-nav">
+			      
+			      <li class="nav-item active">
+			        <a class="nav-link" href = #Home"> Home <span class="sr-only">(current)</span></a>
+			      </li>
+			      
+			      <li class="nav-item">
+			        <a class="nav-link" href="#Proficiencies"> About </a>
+			      </li>
+			      
+			      <li class="nav-item">
+			        <a class="nav-link" href="#Portfolio">Portfolio</a>
+			      </li>
 
-		    </ul>
-		  </div>
+			      <li class="nav-item">
+			        <a class = "nav-link" href="./store/Resume.pdf"> Resume </a>
+			      </li>
+			     
+			      <li class="nav-item">
+			        <a class="nav-link" href="#Social">Contact</a>
+			      </li>
 
-		</nav>
-	</section>		
+			    </ul>
+			  </div>
+
+			</nav>
+	</section>	
 
 
 	<!--=====================================================================================
@@ -82,20 +81,26 @@
 		=====================================================================================-->
 
 	<section id = 'Proficiencies' data-aos="fade-right" data-aos-delay="500">
-			<h1 class = "display-4"> Here's what I know: </h1>	
+			<h1 class = "display-4"> About </h1>	
+			<p class = "lead" style = "text-indent: 50px;"> 
+				I'm a software developer with a passion for developing applications that enhances the lives of my users. Whenever I see a problem, I like to utilize all the tools I have available to provide an effective solution that other people can benefit from.
+			</p>
+			<p class = "lead" style = "text-indent: 50px;"> 
+				I'm also a almuni of George Mason University with a Bachelors degree in Computer Science. My hope for the future is to gain industry experience in my current job at Spyder Technologies so that I can further improve my skills and learn of other tools & languages that I can use to engineer better programs in the future. 
+			</p>
+
+			<!-- End of biography -->
+			<br>
+			<h3> <small class = "text-muted"> Here's what I know: </small> </h3>	
 
 			<div style = "text-align: center; padding-left: 10px; padding-right: 10px;"> 
+
+				<h2 class = "h5 title"> Programming Languages </h2>
 
 				<!--=== Java ===-->
 				<figure class = "figure">
 					<img src = "./res/java.png" class="figure-img img-fluid rounded" alt = "Java"/>
 				 	<figcaption class = "figure-caption"> Java </figcaption>
-				</figure>
-
-				<!--=== JavaScript ===-->
-				<figure class = "figure">
-					<img src = "./res/javascript.png" class="figure-img img-fluid rounded" alt = "JavaScipt"/>
-				 	<figcaption class = "figure-caption"> JavaScript </figcaption>
 				</figure>
 
 				<!--=== Python ===-->
@@ -104,7 +109,26 @@
 				 	<figcaption class = "figure-caption"> Python </figcaption>
 				</figure>
 
+				<!--=== JavaScript ===-->
+				<figure class = "figure" id = "javascript">
+					<img src = "./res/javascript.png" class="figure-img img-fluid rounded" alt = "JavaScipt"/>
+				 	<figcaption class = "figure-caption"> JavaScript </figcaption>
+				</figure>
+
+				<!--=== HTML ===-->
+				<figure class = "figure">
+					<img src = "./res/html.png" class="figure-img img-fluid rounded" alt = "HTML"/>
+				 	<figcaption class = "figure-caption"> HTML5 </figcaption>
+				</figure>
+
+				<!--=== CSS ===-->
+				<figure class = "figure">
+					<img src = "./res/css.png" class="figure-img img-fluid rounded" alt = "CSS"/>
+				 	<figcaption class = "figure-caption"> CSS3 </figcaption>
+				</figure>
+
 				<hr/>
+				<h2 class = "h5 title"> Development Tools </h2>
 
 				<!--=== Android Studio ===-->
 				<figure class = "figure">
@@ -118,19 +142,20 @@
 				 	<figcaption class = "figure-caption"> ReactJS </figcaption>
 				</figure>
 
-				<!--=== NodeJS ===-->
-				<figure class = "figure">
-					<img src = "./res/nodejs.png" class="figure-img img-fluid rounded" alt = "NodeJS"/>
-				 	<figcaption class = "figure-caption"> NodeJS </figcaption>
-				</figure>
-
 				<!--=== Git ===-->
 				<figure class = "figure">
 					<img src = "./res/git.png" class="figure-img img-fluid rounded" alt = "Git"/>
 				 	<figcaption class = "figure-caption"> Git </figcaption>
 				</figure>
 
+				<!--=== NodeJS ===-->
+				<figure class = "figure">
+					<img src = "./res/nodejs.png" class="figure-img img-fluid rounded" alt = "NodeJS"/>
+				 	<figcaption class = "figure-caption"> NodeJS </figcaption>
+				</figure>
+
 				<hr/>
+				<h2 class = "h5 title"> Database </h2>
 
 				<!--=== Firebase ===-->
 				<figure class = "figure">
@@ -143,8 +168,6 @@
 					<img src = "./res/sqlite.png" class="figure-img img-fluid rounded" alt = "SQLite"/>
 				 	<figcaption class = "figure-caption"> SQLite </figcaption>
 				</figure>
-
-
 
 				<!-- 
 				<figure class = "figure">
@@ -161,8 +184,11 @@
 										Portfolio Section 
 		=====================================================================================-->
 	<section id = 'Portfolio'>
-		<div data-aos="fade-right" data-aos-delay="600"> 
+		<div data-aos="fade-right"> 
 			<h1 class = "display-4"> Portfolio </h1>
+			<p class = "lead" style = "text-indent: 50px;"> 
+				Below are just some of the apps I've created that has never been built before in hopes of providing people with that tool that they've been looking for. Whether it be getting to an event on time, improving the workflow for my colleagues, or giving students an edge in their classes, I've strived for these projects to deliver the solutions that people need in their lives.
+			</p>
 			
 			<div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel" style = "text-align: center;">
 				  <div class="carousel-inner">
@@ -175,7 +201,7 @@
 					    <div class="carousel-item active">
 					      	<div class="jumbotron d-block w-100">
 
-					      		<img src = "https://github.com/Lord-Mendoza/TravelSmart/blob/master/app/src/main/res/drawable/icon.png?raw=true" />
+					      		<img src = "./res/TravelSmart.png" />
 
 							  	<p class="h3">TravelSmart</p>
 								  
@@ -188,7 +214,7 @@
 					    <div class="carousel-item">
 					      	<div class="jumbotron d-block w-100">
 					      	
-			      			  <img src = "https://github.com/Lord-Mendoza/Samsung-Workshop-Check-In/blob/master/app/src/main/res/mipmap-xxxhdpi/ic_launcher_round.png?raw=true" />
+			      			  <img src = "./res/checkin.png" />
 
 							  <p class="h3">Workshop Check-In</p>
 							  
@@ -201,7 +227,7 @@
 					    <div class="carousel-item">
 					      	<div class="jumbotron d-block w-100">
 					      	
-			      			  <img src = "https://github.com/Lord-Mendoza/WorkSmart/blob/master/Project/app/src/main/res/mipmap-xxxhdpi/ic_launcher.png?raw=true" />
+			      			  <img src = "./res/worksmart.png" />
 
 							  <p class="h3">WorkSmart</p>
 							  
@@ -220,24 +246,24 @@
 										Social Section 
 		=====================================================================================-->
 	<section id = 'Social' style = "padding-bottom: 20px; background-color: black; padding-top: 10px;">
-			<div data-aos="flip-down" data-aos-delay="700"> 
+			<div data-aos="flip-down"> 
 				<h4 class = "display-6" style = "color: white; text-align: center; padding-bottom: 5px;"> ━━━ Get In Touch ━━━ </h1>
 				
 					<div style = "text-align: center;"> 
 						<a href = "https://www.bit.ly/playstore-lord-mendoza" target = "_blank">
-							<img class = "logo" src = 'https://upload.wikimedia.org/wikipedia/commons/thumb/d/d7/Android_robot.svg/511px-Android_robot.svg.png' alt = "android logo"/>
+							<img class = "logo" src = './res/android.png' alt = "android logo"/>
 						</a>
 
 						<a href = "https://www.github.com/lord-mendoza/" target = "_blank">
-							<img src = 'https://cdn2.iconfinder.com/data/icons/social-icons-33/128/Github-512.png' class = "logo" alt = "github logo"/>
+							<img src = './res/github.png' class = "logo" alt = "github logo"/>
 						</a>
 
 						<a href = "https://www.linkedin.com/in/lord-mendoza/" target = "_blank">
-							<img class = "logo" src = 'https://upload.wikimedia.org/wikipedia/commons/thumb/c/ca/LinkedIn_logo_initials.png/600px-LinkedIn_logo_initials.png' alt = "linkedin logo"/>
+							<img class = "logo" src = './res/linkedin.png' alt = "linkedin logo"/>
 						</a>
 
 						<a href="mailto:lord.d.mendoza@gmail.com" target="_top">
-							<img class = "logo" src = 'https://upload.wikimedia.org/wikipedia/commons/thumb/4/45/New_Logo_Gmail.svg/2000px-New_Logo_Gmail.svg.png' alt = "gmail logo"/>
+							<img class = "logo" src = './res/gmail.png' alt = "gmail logo"/>
 						</a>
 						
 					</div>
@@ -263,6 +289,8 @@
   	<script>
     	AOS.init();
   	</script>
+
+  	<script src="./src/helper.js"></script>
 
 
   	<!--=================================End of Body==============================================
