@@ -20,6 +20,11 @@ img {
 	padding-right: 25px;
 	padding-left: 25px;
 	margin-bottom: 25px;
+	height: 80px;
+}
+
+.logo.gmail {
+	width: 150px;
 }
 
 #profPic {
