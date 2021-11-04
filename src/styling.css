@@ -20,6 +20,13 @@ img {
 	padding-right: 25px;
 	padding-left: 25px;
 	margin-bottom: 25px;
+}
+
+.logo.resume {
+	height: 80px;
+}
+
+.logo.github {
 	height: 80px;
 }
 
