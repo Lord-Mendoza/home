@@ -1,356 +1,388 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
+<head>
     <!-- Required meta tags -->
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
     <!-- Bootstrap CSS -->
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+          integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
 
-    <link rel="stylesheet" type= "text/css" href = "./src/styling.css">
+    <link rel="stylesheet" type="text/css" href="./src/styling.css">
 
-    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css"/>
 
     <link rel="icon" type="image/x-icon" href="./res/favicon.ico">
 
     <title>Lord Mendoza | Website </title>
-  </head>
-
-
- 	<!--==========================================================================================
-  		=================================Start of Body============================================-->
-	<body style = "display: inline-block; " data-spy="scroll" data-target=".navbar" data-offset="50">
-
-	<!--=== Navigation ===-->
-	<nav class="navbar navbar-expand-sm navbar-dark bg-dark fixed-top">
-
-		<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-			<span class="navbar-toggler-icon"></span>
-		</button>
-
-		<div class="collapse navbar-collapse" id="navbarNav">
-			<ul class="navbar-nav">
-
-				<li class="navbar-nav">
-					<a class="nav-link" href = "#Home"> Home </a>
-				</li>
-
-				<li class="navbar-nav">
-					<a class="nav-link" href="#Proficiencies"> About </a>
-				</li>
-
-				<li class="navbar-nav">
-					<a class="nav-link" href="#Portfolio">Portfolio</a>
-				</li>
-
-				<li class="navbar-nav">
-					<a class = "nav-link" href="./store/Lord M. Mendoza - Resume.pdf"> Resume </a>
-				</li>
-
-				<li class="navbar-nav">
-					<a class="nav-link" href="#Social">Contact</a>
-				</li>
-
-			</ul>
-		</div>
-
-	</nav>
-
-  	<!--=====================================================================================
-  										Header + Menu Section
-		=====================================================================================-->
-  	<section id = 'Home' data-aos="zoom-in" style = "margin-top: 50px;">
-  		<!--=== Profile Header ===-->
-	    <h1 class = "jumbotron" style = "background-color: black; text-align: center; border-radius: 0%; padding-bottom: 30px; padding-top: 20px; margin-bottom: 0px;">
-	    	<div style = "color: white;">
-		    	<img src = './res/profilePic.jpg'
-					alt = "my profile pic"
-					id = "profPic"
-					style = "padding-bottom: 10px;"/>
-
-				<div class='media-heading'> Lord Mendoza </div>
-				<div style = "font-size: 30px;"> <small style = "padding-left: 0px;"> Software Developer </small> </div>
-
-			</div>
-	    </h1>
-	</section>
-
-
-	<!--=====================================================================================
-									Proficiencies Section
-		=====================================================================================-->
-
-	<section id = 'Proficiencies' data-aos="fade-right" data-aos-delay="500">
-			<h1 class = "display-4"> About </h1>
-			<p class = "lead" style = "text-indent: 50px;">
-				I'm a software developer with a passion for developing tools and applications that enhance the lives of
-				my users. Whenever I see a problem, I like to utilize all the resources I have available to provide an
-				effective solution that other people can benefit from. As a detail-oriented person, I aim to present my
-				works with graphically pleasing designs. And with users always in mind, I create my applications with
-				ease of access and efficiency as my priority.
-			</p>
-			<p class = "lead" style = "text-indent: 50px;">
-				I'm an alumnus of George Mason University with a Bachelor’s degree in Computer Science and have been
-				actively working and contributing to the field for years. My hope for the future is to further
-				gain industry experience so that I can improve my skills and learn about other tools & languages that I
-				can use to engineer better programs.
-			</p>
-
-			<!-- End of biography -->
-			<br>
-	</section>
-
-	<section data-aos="fade-right" data-aos-delay="500">
-			<h3> <small class = "text-muted"> Here's what I know: </small> </h3>
-
-			<div style = "text-align: center; padding-left: 10px; padding-right: 10px;">
-
-				<h2 class = "h5 title"> Programming </h2>
-
-				<!--=== Java ===-->
-				<figure class = "figure">
-					<img src = "./res/java.png" class="figure-img img-fluid rounded" alt = "Java"/>
-				 	<figcaption class = "figure-caption"> Java </figcaption>
-				</figure>
-
-				<!--=== JavaScript ===-->
-				<figure class = "figure" id = "javascript">
-					<img src = "./res/javascript.png" class="figure-img img-fluid rounded programLogo" alt = "JavaScipt"/>
-					<figcaption class = "figure-caption"> JavaScript </figcaption>
-				</figure>
-
-				<!--=== HTML ===-->
-				<figure class = "figure">
-					<img src = "./res/html.png" class="figure-img img-fluid rounded programLogo" alt = "HTML"/>
-				 	<figcaption class = "figure-caption"> HTML5 </figcaption>
-				</figure>
-
-				<!--=== CSS ===-->
-				<figure class = "figure">
-					<img src = "./res/css.png" class="figure-img img-fluid rounded programLogo" alt = "CSS"/>
-				 	<figcaption class = "figure-caption"> CSS3 </figcaption>
-				</figure>
-
-                <!--=== ReactJS ===-->
-                <figure class = "figure">
-                    <img src = "./res/react.png" class="figure-img img-fluid rounded programLogo" alt = "ReactJS"/>
-                    <figcaption class = "figure-caption"> ReactJS </figcaption>
-                </figure>
-
-				<!--=== Python ===-->
-				<figure class = "figure">
-					<img src = "./res/Python.svg.png" class="figure-img img-fluid rounded programLogo" alt = "Python"/>
-					<figcaption class = "figure-caption"> Python </figcaption>
-				</figure>
-
-				<hr/>
-				<h2 class = "h5 title"> Development Tools </h2>
-
-				<!--=== Android Studio ===-->
-<!--				<figure class = "figure">-->
-<!--					<img src = "./res/androidstudio.png" class="figure-img img-fluid rounded" alt = "Android Studio"/>-->
-<!--				 	<figcaption class = "figure-caption"> Android Studio </figcaption>-->
-<!--				</figure>-->
-
-				<!--=== Git ===-->
-				<figure class = "figure">
-					<img src = "./res/git.png" class="figure-img img-fluid rounded" alt = "Git"/>
-				 	<figcaption class = "figure-caption"> Git </figcaption>
-				</figure>
-
-				<!--=== NodeJS ===-->
-				<figure class = "figure">
-					<img src = "./res/nodejs.png" class="figure-img img-fluid rounded" alt = "NodeJS"/>
-				 	<figcaption class = "figure-caption"> NodeJS </figcaption>
-				</figure>
-
-				<!--=== Spring ===-->
-				<figure class = "figure">
-					<img src = "./res/spring.png" class="figure-img img-fluid rounded" alt = "Spring Framework"/>
-					<figcaption class = "figure-caption"> Spring Framework </figcaption>
-				</figure>
-
-				<hr/>
-				<h2 class = "h5 title"> Build & Deploy </h2>
-
-				<!--=== Tomcat ===-->
-				<figure class = "figure">
-					<img src = "./res/ant.png" class="figure-img img-fluid rounded" alt = "Ant"/>
-					<figcaption class = "figure-caption"> Ant </figcaption>
-				</figure>
-
-				<!--=== Tomcat ===-->
-				<figure class = "figure">
-					<img src = "./res/gradle.png" class="figure-img img-fluid rounded" alt = "Gradle"/>
-					<figcaption class = "figure-caption"> Gradle </figcaption>
-				</figure>
-
-				<!--=== Tomcat ===-->
-				<figure class = "figure">
-					<img src = "./res/tomcat.png" class="figure-img img-fluid rounded" alt = "Tomcat"/>
-					<figcaption class = "figure-caption"> Tomcat </figcaption>
-				</figure>
-
-				<!--=== Jenkins ===-->
-				<figure class = "figure">
-					<img src = "./res/jenkins.png" class="figure-img img-fluid rounded" alt = "Jenkins"/>
-					<figcaption class = "figure-caption"> Jenkins </figcaption>
-				</figure>
-
-				<hr/>
-				<h2 class = "h5 title"> Database </h2>
-
-				<!--=== MyBatis ===-->
-				<figure class = "figure">
-					<img src = "./res/MyBatis.png" class="figure-img img-fluid rounded" alt = "SQLite"/>
-					<figcaption class = "figure-caption"> MyBatis </figcaption>
-				</figure>
-
-				<!--=== Firebase ===-->
-				<figure class = "figure">
-					<img src = "./res/firebase.png" class="figure-img img-fluid rounded" alt = "Firebase"/>
-				 	<figcaption class = "figure-caption"> Firebase </figcaption>
-				</figure>
-
-				<!--=== SQLite ===-->
-<!--				<figure class = "figure">-->
-<!--					<img src = "./res/sqlite.png" class="figure-img img-fluid rounded" alt = "SQLite"/>-->
-<!--				 	<figcaption class = "figure-caption"> SQLite </figcaption>-->
-<!--				</figure>-->
-
-			</div>
-	</section>
-
-
-	<!--=====================================================================================
-										Portfolio Section
-		=====================================================================================-->
-	<section id = 'Portfolio'>
-		<div data-aos="fade-right">
-			<h1 class = "display-4"> Portfolio </h1>
-			<p class = "lead" style = "text-indent: 50px;">
-				Below are just some of the things I've created that has never been built before in hopes of providing people with that tool that they've been looking for. Whether it be getting to an event on time, improving the workflow for my colleagues, or giving students an edge in their classes, I've strived for these projects to deliver the solutions that people need in their lives.
-			</p>
-
-			<div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel" style = "text-align: center;" data-interval="false">
-				  <div class="carousel-inner">
-				  		<ol class="carousel-indicators" style = "background-color: black;">
-						    <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
-						    <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
-						    <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
-						    <li data-target="#carouselExampleIndicators" data-slide-to="3"></li>
-					  	</ol>
-
-					  	<div class="carousel-item active">
-					      	<div class="jumbotron d-block w-100">
-
-					      		<img src = "./res/reactComponents.png" />
-
-							  	<p class="h3">React Components <span class="badge badge-secondary">New</span></h6></p>
-
-							  	<p class="lead">A component library built to ease React app development. Provides components for rendering Grids, Forms, Popups, and Masks. </p>
-
-							  	<a class="btn btn-primary btn-lg" href="https://reactwiki.com" role="button" target = "_blank">Learn More</a>
-							</div>
-					    </div>
-
-					    <div class="carousel-item">
-					      	<div class="jumbotron d-block w-100">
-
-					      		<img src = "./res/travelsmart.png" />
-
-							  	<p class="h3">TravelSmart</p>
-
-							  	<p class="lead">A mobile application that utilizes Google Maps APIs to determine the best time for you to leave to get you where you need to be on time, regardless of traffic. </p>
-
-							  	<a class="btn btn-primary btn-lg" href="https://github.com/Lord-Mendoza/TravelSmart" role="button" target = "_blank">Learn More</a>
-							</div>
-					    </div>
-
-					    <div class="carousel-item">
-					      	<div class="jumbotron d-block w-100">
-
-			      			  <img src = "./res/checkin.png" />
-
-							  <p class="h3">Workshop Check-In</p>
-
-							  <p class="lead"> A tool developed for Samsung Experience consultants that helps facilitate client interactions, as well as maintaining workshop numbers for the store. </p>
-
-							  <a class="btn btn-primary btn-lg" href="https://github.com/Lord-Mendoza/Samsung-Workshop-Check-In" role="button" target = "_blank"> Learn More </a>
-							</div>
-					    </div>
-
-					    <div class="carousel-item">
-					      	<div class="jumbotron d-block w-100">
-
-			      			  <img src = "./res/worksmart.png" />
-
-							  <p class="h3">WorkSmart</p>
-
-							  <p class="lead"> A digital student agenda that helps student keep track of all aspects of their classes including grades, tasks, faculty information, and much more. A program developed by students, for students. </p>
-
-							  <a class="btn btn-primary btn-lg" href="https://github.com/Lord-Mendoza/WorkSmart" role="button" target = "_blank"> Learn More </a>
-							</div>
-					    </div>
-
-				  </div>
-			</div>
-		</div>
-	</section>
-
-	<!--=====================================================================================
-										Social Section
-		=====================================================================================-->
-	<section id = 'Social' style = "padding-bottom: 20px; background-color: black; padding-top: 10px;">
-			<div data-aos="flip-down">
-				<h4 class = "display-6" style = "color: white; text-align: center; padding-bottom: 5px;"> ━━━ Get In Touch ━━━ </h4>
-
-					<div style = "text-align: center;">
-<!--						<a href = "https://www.bit.ly/playstore-lord-mendoza" target = "_blank">-->
-<!--							<img class = "logo" src = './res/android.png' alt = "android logo"/>-->
-<!--						</a>-->
-
-						<a href="./store/Lord M. Mendoza - Resume.pdf" target = "_blank">
-							<img src = './res/resume-icon.png' class = "logo resume" alt = "resume logo"/>
-						</a>
-
-						<a href = "https://www.github.com/lord-mendoza/" target = "_blank">
-							<img src = './res/github.png' class = "logo github" alt = "github logo"/>
-						</a>
-
-						<a href="mailto:lord.d.mendoza@gmail.com" target="_top">
-							<img src = './res/gmail.png' class = "logo gmail" alt = "gmail logo"/>
-						</a>
-
-					</div>
-			</div>
-	</section>
-
-
-	<!--=====================================================================================
-										Social Section
-		=====================================================================================-->
-
-	<!--jquery-->
-    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
-
-    <!--popper-->
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
-
-    <!--bootstrap-->
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
-
-    <!--AOS-->
-    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
-  	<script>
-    	AOS.init();
-  	</script>
-
-  	<script src="./src/helper.js"></script>
-
-
-  	<!--=================================End of Body==============================================
-  		==========================================================================================-->
-	</body>
+</head>
+
+
+<!--==========================================================================================
+     =================================Start of Body============================================-->
+<body style="display: inline-block; " data-spy="scroll" data-target=".navbar" data-offset="50">
+
+<!--=== Navigation ===-->
+<nav class="navbar navbar-expand-sm navbar-dark bg-dark fixed-top">
+
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
+            aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+    </button>
+
+    <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav">
+
+            <li class="navbar-nav">
+                <a class="nav-link" href="#Home"> Home </a>
+            </li>
+
+            <li class="navbar-nav">
+                <a class="nav-link" href="#Proficiencies"> About </a>
+            </li>
+
+            <li class="navbar-nav">
+                <a class="nav-link" href="#Portfolio">Portfolio</a>
+            </li>
+
+            <li class="navbar-nav">
+                <a class="nav-link" href="./store/Lord M. Mendoza - Resume.pdf"> Resume </a>
+            </li>
+
+            <li class="navbar-nav">
+                <a class="nav-link" href="#Social">Contact</a>
+            </li>
+
+        </ul>
+    </div>
+
+</nav>
+
+<!--=====================================================================================
+                                    Header + Menu Section
+  =====================================================================================-->
+<section id='Home' data-aos="zoom-in" style="margin-top: 50px;">
+    <!--=== Profile Header ===-->
+    <h1 class="jumbotron"
+        style="background-color: black; text-align: center; border-radius: 0%; padding-bottom: 30px; padding-top: 20px; margin-bottom: 0px;">
+        <div style="color: white;">
+            <img src='./res/profilePic.jpg'
+                 alt="my profile pic"
+                 id="profPic"
+                 style="padding-bottom: 10px;"/>
+
+            <div class='media-heading'> Lord Mendoza</div>
+            <div style="font-size: 30px;"><small style="padding-left: 0px;"> Systems/Software Engineer </small></div>
+
+        </div>
+    </h1>
+</section>
+
+
+<!--=====================================================================================
+                                Proficiencies Section
+    =====================================================================================-->
+
+<section id='Proficiencies' data-aos="fade-right" data-aos-delay="500">
+    <h1 class="display-4"> About </h1>
+    <p class="lead" style="text-indent: 50px;">
+        An experienced software engineer with a passion for developing tools and applications that enhance the lives
+        of my users.
+    </p>
+
+    <p class="lead" style="text-indent: 50px;">
+        Whenever I see a problem, I like to utilize all the resources I have available to provide an effective
+        solution that other people can benefit from. As a detail-oriented person, I aim to present my works with
+        graphically pleasing designs. And with users always in mind, I create my applications with ease of access
+        and efficiency as my priority.
+    </p>
+
+    <p class="lead" style="text-indent: 50px;">
+        Sharing knowledge in this digital, connected era is key--so I take time to generate helpful documentations
+        for reference not just for myself, but for my team members and peers to learn something knew from.
+    </p>
+
+    <p class="lead" style="text-indent: 50px;">
+        I'm an alumnus of George Mason University with a Bachelor’s degree in Computer Science and have been
+        actively working and contributing to the field for years. My hope for the future is to further gain industry
+        experience so that I can improve my skills and learn about other tools & languages that I can use to
+        engineer better programs.
+    </p>
+    <!-- End of biography -->
+    <br>
+</section>
+
+<section data-aos="fade-right" data-aos-delay="500">
+    <h3><small class="text-muted"> Here's what I know: </small></h3>
+
+    <div style="text-align: center; padding-left: 10px; padding-right: 10px;">
+
+        <h2 class="h5 title"> Programming </h2>
+
+        <!--=== Java ===-->
+        <figure class="figure">
+            <img src="./res/java.png" class="figure-img img-fluid rounded" alt="Java"/>
+            <figcaption class="figure-caption"> Java</figcaption>
+        </figure>
+
+        <!--=== JavaScript ===-->
+        <figure class="figure" id="javascript">
+            <img src="./res/javascript.png" class="figure-img img-fluid rounded programLogo" alt="JavaScipt"/>
+            <figcaption class="figure-caption"> JavaScript</figcaption>
+        </figure>
+
+        <!--=== HTML ===-->
+        <figure class="figure">
+            <img src="./res/html.png" class="figure-img img-fluid rounded programLogo" alt="HTML"/>
+            <figcaption class="figure-caption"> HTML5</figcaption>
+        </figure>
+
+        <!--=== CSS ===-->
+        <figure class="figure">
+            <img src="./res/css.png" class="figure-img img-fluid rounded programLogo" alt="CSS"/>
+            <figcaption class="figure-caption"> CSS3</figcaption>
+        </figure>
+
+        <!--=== ReactJS ===-->
+        <figure class="figure">
+            <img src="./res/react.png" class="figure-img img-fluid rounded programLogo" alt="ReactJS"/>
+            <figcaption class="figure-caption"> ReactJS</figcaption>
+        </figure>
+
+        <!--=== Python ===-->
+        <figure class="figure">
+            <img src="./res/Python.svg.png" class="figure-img img-fluid rounded programLogo" alt="Python"/>
+            <figcaption class="figure-caption"> Python</figcaption>
+        </figure>
+
+        <hr/>
+        <h2 class="h5 title"> Development Tools </h2>
+
+        <!--=== Android Studio ===-->
+        <!--				<figure class = "figure">-->
+        <!--					<img src = "./res/androidstudio.png" class="figure-img img-fluid rounded" alt = "Android Studio"/>-->
+        <!--				 	<figcaption class = "figure-caption"> Android Studio </figcaption>-->
+        <!--				</figure>-->
+
+        <!--=== Git ===-->
+        <figure class="figure">
+            <img src="./res/git.png" class="figure-img img-fluid rounded" alt="Git"/>
+            <figcaption class="figure-caption"> Git</figcaption>
+        </figure>
+
+        <!--=== NodeJS ===-->
+        <figure class="figure">
+            <img src="./res/nodejs.png" class="figure-img img-fluid rounded" alt="NodeJS"/>
+            <figcaption class="figure-caption"> NodeJS</figcaption>
+        </figure>
+
+        <!--=== Spring ===-->
+        <figure class="figure">
+            <img src="./res/spring.png" class="figure-img img-fluid rounded" alt="Spring Framework"/>
+            <figcaption class="figure-caption"> Spring Framework</figcaption>
+        </figure>
+
+        <hr/>
+        <h2 class="h5 title"> Build & Deploy </h2>
+
+        <!--=== Tomcat ===-->
+        <figure class="figure">
+            <img src="./res/ant.png" class="figure-img img-fluid rounded" alt="Ant"/>
+            <figcaption class="figure-caption"> Ant</figcaption>
+        </figure>
+
+        <!--=== Tomcat ===-->
+        <figure class="figure">
+            <img src="./res/gradle.png" class="figure-img img-fluid rounded" alt="Gradle"/>
+            <figcaption class="figure-caption"> Gradle</figcaption>
+        </figure>
+
+        <!--=== Tomcat ===-->
+        <figure class="figure">
+            <img src="./res/tomcat.png" class="figure-img img-fluid rounded" alt="Tomcat"/>
+            <figcaption class="figure-caption"> Tomcat</figcaption>
+        </figure>
+
+        <!--=== Jenkins ===-->
+        <figure class="figure">
+            <img src="./res/jenkins.png" class="figure-img img-fluid rounded" alt="Jenkins"/>
+            <figcaption class="figure-caption"> Jenkins</figcaption>
+        </figure>
+
+        <hr/>
+        <h2 class="h5 title"> Database </h2>
+
+        <!--=== MyBatis ===-->
+        <figure class="figure">
+            <img src="./res/MyBatis.png" class="figure-img img-fluid rounded" alt="SQLite"/>
+            <figcaption class="figure-caption"> MyBatis</figcaption>
+        </figure>
+
+        <!--=== Firebase ===-->
+        <figure class="figure">
+            <img src="./res/firebase.png" class="figure-img img-fluid rounded" alt="Firebase"/>
+            <figcaption class="figure-caption"> Firebase</figcaption>
+        </figure>
+
+        <!--=== SQLite ===-->
+        <!--				<figure class = "figure">-->
+        <!--					<img src = "./res/sqlite.png" class="figure-img img-fluid rounded" alt = "SQLite"/>-->
+        <!--				 	<figcaption class = "figure-caption"> SQLite </figcaption>-->
+        <!--				</figure>-->
+
+    </div>
+</section>
+
+
+<!--=====================================================================================
+                                    Portfolio Section
+    =====================================================================================-->
+<section id='Portfolio'>
+    <div data-aos="fade-right">
+        <h1 class="display-4"> Portfolio </h1>
+        <p class="lead" style="text-indent: 50px;">
+            Below are just some of the things I've created that has never been built before in hopes of providing people
+            with that tool that they've been looking for. Whether it be getting to an event on time, improving the
+            workflow for my colleagues, or giving students an edge in their classes, I've strived for these projects to
+            deliver the solutions that people need in their lives.
+        </p>
+
+        <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel" style="text-align: center;"
+             data-interval="false">
+            <div class="carousel-inner">
+                <ol class="carousel-indicators" style="background-color: black;">
+                    <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+                    <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+                    <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+                    <li data-target="#carouselExampleIndicators" data-slide-to="3"></li>
+                </ol>
+
+                <div class="carousel-item active">
+                    <div class="jumbotron d-block w-100">
+
+                        <img src="./res/reactComponents.png"/>
+
+                        <p class="h3">React Components <span class="badge badge-secondary">New</span></h6></p>
+
+                        <p class="lead">A component library built to ease React app development. Provides components for
+                            rendering Grids, Forms, Popups, and Masks. </p>
+
+                        <a class="btn btn-primary btn-lg" href="https://reactwiki.com" role="button" target="_blank">Learn
+                            More</a>
+                    </div>
+                </div>
+
+                <div class="carousel-item">
+                    <div class="jumbotron d-block w-100">
+
+                        <img src="./res/travelsmart.png"/>
+
+                        <p class="h3">TravelSmart</p>
+
+                        <p class="lead">A mobile application that utilizes Google Maps APIs to determine the best time
+                            for you to leave to get you where you need to be on time, regardless of traffic. </p>
+
+                        <a class="btn btn-primary btn-lg" href="https://github.com/Lord-Mendoza/TravelSmart"
+                           role="button" target="_blank">Learn More</a>
+                    </div>
+                </div>
+
+                <div class="carousel-item">
+                    <div class="jumbotron d-block w-100">
+
+                        <img src="./res/checkin.png"/>
+
+                        <p class="h3">Workshop Check-In</p>
+
+                        <p class="lead"> A tool developed for Samsung Experience consultants that helps facilitate
+                            client interactions, as well as maintaining workshop numbers for the store. </p>
+
+                        <a class="btn btn-primary btn-lg"
+                           href="https://github.com/Lord-Mendoza/Samsung-Workshop-Check-In" role="button"
+                           target="_blank"> Learn More </a>
+                    </div>
+                </div>
+
+                <div class="carousel-item">
+                    <div class="jumbotron d-block w-100">
+
+                        <img src="./res/worksmart.png"/>
+
+                        <p class="h3">WorkSmart</p>
+
+                        <p class="lead"> A digital student agenda that helps student keep track of all aspects of their
+                            classes including grades, tasks, faculty information, and much more. A program developed by
+                            students, for students. </p>
+
+                        <a class="btn btn-primary btn-lg" href="https://github.com/Lord-Mendoza/WorkSmart" role="button"
+                           target="_blank"> Learn More </a>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </div>
+</section>
+
+<!--=====================================================================================
+                                    Social Section
+    =====================================================================================-->
+<section id='Social' style="padding-bottom: 20px; background-color: black; padding-top: 10px;">
+    <div data-aos="flip-down">
+        <h4 class="display-6" style="color: white; text-align: center; padding-bottom: 5px;"> ━━━ Get In Touch ━━━ </h4>
+
+        <div style="text-align: center;">
+            <!--						<a href = "https://www.bit.ly/playstore-lord-mendoza" target = "_blank">-->
+            <!--							<img class = "logo" src = './res/android.png' alt = "android logo"/>-->
+            <!--						</a>-->
+
+            <a href="./store/Lord M. Mendoza - Resume.pdf" target="_blank">
+                <img src='./res/resume-icon.png' class="logo resume" alt="resume logo"/>
+            </a>
+
+            <a href="https://www.github.com/lord-mendoza/" target="_blank">
+                <img src='./res/github.png' class="logo github" alt="github logo"/>
+            </a>
+
+            <a href="mailto:lord.d.mendoza@gmail.com" target="_top">
+                <img src='./res/gmail.png' class="logo gmail" alt="gmail logo"/>
+            </a>
+
+        </div>
+    </div>
+</section>
+
+
+<!--=====================================================================================
+                                    Social Section
+    =====================================================================================-->
+
+<!--jquery-->
+<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+        integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+        crossorigin="anonymous"></script>
+
+<!--popper-->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+        integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+        crossorigin="anonymous"></script>
+
+<!--bootstrap-->
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+        integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+        crossorigin="anonymous"></script>
+
+<!--AOS-->
+<script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+<script>
+    AOS.init();
+</script>
+
+<script src="./src/helper.js"></script>
+
+
+<!--=================================End of Body==============================================
+    ==========================================================================================-->
+</body>
 </html>
